@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+users =[{:last_name => 'Michel', :first_name => 'Brendan', :cwid => '10602474', :phone_number => '248-877-7209', :email => 'bmichel@citadel.edu'}
+]
+users.each do |user|
+    @user = User.create(user)
+end
