@@ -17,6 +17,8 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'yarn',     '0.1.1'
+  gem 'haml-rails', '2.0'
+  gem 'haml'
 end
 
 group :development do
