@@ -1,0 +1,21 @@
+%c1l= link_to "Back To Home Page", #homepath
+%h3  
+  Class Schedule
+
+%h2 Name: = @user.last_name, @user.first_name
+%h2 CWID: = @user.cwid
+%h2 Class: = @user.class
+
+%table#userSchedule
+  %tbody
+    .column
+      %h2 Time
+
+    .column 
+      %h2 Dates per Week
+
+    .column 
+      %h2 Course Title 
+
+    .column
+      %h2 Professor Name
