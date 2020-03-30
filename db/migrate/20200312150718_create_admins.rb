@@ -5,7 +5,8 @@ class CreateAdmins < ActiveRecord::Migration[6.0]
       t.integer :cwid
       t.string :phone_number
       t.string :email
-      t.boolean :isAdmin
+      t.string :password
+      t.boolean :isAdmin, default:false
 
       t.timestamps
     end
