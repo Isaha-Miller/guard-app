@@ -13,6 +13,13 @@ gem 'scaffold', '~> 0.0.3'
 group :development, :test do
   gem 'sqlite3', '1.4.1'
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'launchy'
+  gem 'rspec-rails'
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'yarn',     '0.1.1'
+  gem 'haml-rails', '2.0'
+  gem 'haml'
 end
 
 group :development do
