@@ -1,0 +1,50 @@
+%table.time_events
+  %thead
+    %tr
+      %th.time Time
+      //- @events.each do |eve|
+        %th{:class => "Day-#{day.name}"}
+  %tbody
+    - @time_range.each do |days|
+      %tr
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |hours|
+          %td.time_slot
+            / Do some more stuff here
+      %tr
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |Monday|
+          %td.0530
+          
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |Tuesday|
+          %td.0530
+          
+          
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |Wednesday|
+          %td.0530
+          
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |Thursday|
+          %td.0530
+          
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |Friday|
+          %td.0530
+          
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |Saturday|
+          %td.0530  
+          
+        %th
+          = time.to_formatted_s(:short)
+        - @events.each do |Sunday|
+          %td.0530
