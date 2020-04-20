@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get '/classSchedule', to: 'user#summary', as: 'summary'
   get '/edit/:classSchedule', to: 'classSchedule#edit', as: 'add_course'
   get '/delete', to: 'classSchedule#edit', as: 'delete_course'
+  get '/specialorders', to: 'login#home', as: 'specialOrders'
   
 end
