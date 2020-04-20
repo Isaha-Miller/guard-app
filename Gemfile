@@ -19,6 +19,7 @@ group :development, :test do
   gem 'yarn',     '0.1.1'
   gem 'haml-rails', '2.0'
   gem 'haml'
+  gem 'database_cleaner'
 end
 
 group :development do
