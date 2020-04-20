@@ -15,4 +15,9 @@ class ScheduleController < ApplicationController
       @user = user.where(id: params[:user])[0]
     end
     
+    def delete_course
+      authenticate!
+      @user = user.where(id: params[:user])[0]
+    end
+    
 end
